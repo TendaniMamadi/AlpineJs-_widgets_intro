@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//unpkg.com/alpinejs" defer></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div x-data="counter ">
+        <h1>Counter</h1>
+        <div class="counter" x-text="count"></div>
+        <div>
+            <button @click="increment">+</button>
+            <button @click="decrement">-</button>
+
+            <button @click="count=0">Reset</button>
+        </div>
+    </div>
+
+   
+
+</body>
+
+    <script src="counter.js"></script>
+    <script src="index.js"></script>
+   
+
+</html>
